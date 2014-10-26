@@ -1,0 +1,168 @@
+/* Grid for responsive blog clone */
+/*GRID*/
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 100%;
+  max-width: 1280px;
+}
+
+.row {
+    margin-bottom: 1em;
+}
+
+.grid, .row, [class*="-col"] {
+    padding: 0;
+    margin: 0;
+}
+
+.grid:after, .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+  margin-bottom: 1em;
+}
+
+.row:last-child {
+  margin-bottom: 0;
+}
+
+[class*="-col"] {
+  float: left;
+  margin-right: 1.5%;
+}
+
+[class*="-col"]:last-child {
+    margin-right: 0;
+}
+
+.one-col {
+  width: 6.958%;
+  position:relative;
+}
+
+.two-col {
+  width: 15.41%;
+  position:relative;
+}
+
+.three-col {
+  width: 23.87%;
+  position:relative;
+}
+
+.four-col {
+  width: 32.33%;
+  position:relative;
+}
+
+.five-col {
+  width: 40.79%;
+  position:relative;
+}
+
+.six-col {
+  width: 49.25%;
+  position:relative;
+}
+
+.seven-col {
+  width: 57.70%;
+  position:relative;
+}
+
+.eight-col {
+  width: 66.16%;
+  position:relative;
+}
+
+.nine-col {
+  width: 74.62%;
+  position:relative;
+}
+
+.ten-col {
+  width: 83.08%;
+  position:relative;
+}
+
+.eleven-col {
+  width: 91.54%;
+  position:relative;
+}
+
+.twelve-col {
+  width: 100%;
+  position:relative;
+}
+
+.one-offset {
+  margin-left: 8.458%;
+}
+
+.two-offset {
+  margin-left: 16.91%;
+}
+
+.three-offset {
+  margin-left: 25.37%;
+}
+
+.four-offset {
+  margin-left: 33.83%;
+}
+
+.five-offset {
+  margin-left: 42.29%;
+}
+
+.six-offset {
+  margin-left: 50.75%;
+}
+
+.seven-offset {
+  margin-left: 59.20%;
+}
+
+.eight-offset {
+  margin-left: 67.66%;
+}
+
+.nine-offset {
+  margin-left: 76.12%;
+}
+
+.ten-offset {
+  margin-left: 84.58%;
+}
+
+.eleven-offset {
+  margin-left: 91.54%;
+}
+
+/*grid media queries*/
+@media all and (max-width: 768px) {
+  [class*="-col"] {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .row:last-child > [class*="-col"]:last-child {
+    margin-bottom: 0;
+  }
+
+  [class*="-offset"] {
+    margin-left: 0;
+  }
+
+  .row {
+    margin: 0;
+  }
+}
+/*END GRID*/
+
