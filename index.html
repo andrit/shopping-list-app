@@ -10,7 +10,7 @@
 	<link rel="icon" type="image/png" href="mindmap.png" />
 </head>
 <body>
-<header class="twelve-col heading-container">
+<header class="twelve-col heading-container" role="banner">
 	<div class="heading">
 		<div class="brand"><i class="fa fa-shopping-cart fa-3x"></i>
 		</div><span id="burst"></span>
@@ -19,7 +19,7 @@
 		</div>
 	</div>
 </header>
-<div class="main three-offset six-col">
+<main class="main three-offset six-col">
 
 	<section class="intro-text">
 		<h4>Create your list by Typing into the field below and clicking add.</h4>
@@ -27,7 +27,7 @@
 
 	<section class="input-sect">
 		<form class="input-input">
-			<input type="text" name="List Item" placeholder="Add Your Item Here">
+			<input type="text" name="List Item" class="add-item" placeholder="Add Your Item Here">
 			<button class="add-button">ADD</button><button name="startover" id="reset-button">Reset List</button>
 		</form>
 		<p>Add More Info <i class="fa fa-chevron-down fa-2x"></i></p>
@@ -99,9 +99,10 @@
 
 
 
-</div>
+</main>
 	
 </body>
 <script src="js/jquery.min.js"></script>
-<script src="js/app.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/appscript.js"></script>
 </html>

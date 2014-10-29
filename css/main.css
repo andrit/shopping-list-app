@@ -202,3 +202,14 @@ h4 {
     text-align:center;
     font-size:1.42em;
 }
+
+.line-through {
+    text-decoration: line-through;
+    color:red;
+}
+
+/*jquery slideouts*/
+
+.input-slideout, .more-info-slide-out {
+    display:none;
+}
