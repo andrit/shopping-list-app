@@ -10,13 +10,16 @@ $(document).ready(function() {
 });
 
 	$('#reset-button').on('click', function(){
+		console.log("reset button clicked");
 		$('.list-list').find('.list-item').remove();
 });
 
 	$('.checked').on('click', function(){
+		console.log("checked button clicked");
 		$(this).closest('.list-item').find('list-item-name').addClass("line-through");
 });
 	$('.remove').on('click', function(){
+		console.log("remove button clicked");
 		$(this).closest(.list-item).remove();
 	})
 
