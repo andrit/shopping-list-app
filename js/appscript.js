@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var add = $(this).parent('.input-input').find('.add-item').val();
+	var add = $(this).parent('.input-input').find('.add-item').text();
 	$('.add-button').on('click', function(e){
         e.preventDefault();
         console.log("add button clicked");
@@ -20,7 +20,7 @@ $(document).ready(function() {
 });
 	$('.remove').on('click', function(){
 		console.log("remove button clicked");
-		$(this).closest(.list-item).remove();
+		$(this).closest('.list-item').remove();
 	})
 
 
