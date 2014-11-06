@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var add = $(this).parent('.input-input').find('.add-item').val();
+	var add = $('.input-input').find('.add-item').val();
 	$('.add-button').on('click', function(e){
         e.preventDefault();
         console.log("add button clicked");
