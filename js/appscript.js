@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 	$('.checked').on('click', function(){
 		console.log("checked button clicked");
-		$(this).closest('.list-item').find('list-item-name').addClass("line-through");
+		$(this).closest('.list-item').find('.list-item-name').addClass("line-through");
 });
 	$('.remove').on('click', function(){
 		console.log("remove button clicked");
