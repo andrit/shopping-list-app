@@ -176,7 +176,7 @@ h4 {
 /*list items--change to forms?*/
 
 .checked, .remove, .list-item-name {
-    display:inline-block
+    display:inline-block;
 }
 
 .checked {
